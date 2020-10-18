@@ -19,22 +19,10 @@ def game_type():
     val_lvl = [1,2]
     if choice_type not in val_lvl:
         print('Wrong input')
-        game_level()
+        game_type()
     return choice_type
 
 def menu():
-    c1, c2 = game_type(), game_level()
-    if c1 == 1:
-        if c2 == 1:
-            bollywood_easy()
-        if c2 == 2:
-            bollywood_medium()
-        if c2 == 3:
-            bollywood_hard()
-    if c1 == 2:
-        if c2 == 1:
-            hollywood_easy()
-        if c2 == 2:
-            hollywood_medium()
-        if c2 == 3:
-            hollywood_hard()
+    game = [[bollywood_easy(),bollywood_medium(),bollywood_hard()],
+           [hollywood_easy(),hollywood_medium(),hollywood_hard()]]
+    game[game_type][game_level]
