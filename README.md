@@ -1,4 +1,4 @@
-# Hi! We are Overnight Sensations
+# About Overnight Sensations
 
 
 Overnight Sensation is started on 15th of march 2020. Basically, it all started up with a small flame in group of friends which finally landed up to creation of  this organisation.
@@ -19,11 +19,7 @@ This is a Python script of the classic Hangman game named "FILMANZA". The word t
 
 Wanna play this game? Write the following code and enjoy the game:
   1.	!git clone https://github.com/Overnight-Sensations/SoloG.git
-  2.	%cd SoloG
-  3.	!python setup,py install
-  4.	Pip install colorama
-  5.	From solog.filmanza import run
-  6.	Run()
+  2.	Run()
   
   By running these few lines of code, the game is perfectly ready to play.
 
