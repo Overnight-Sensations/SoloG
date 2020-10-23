@@ -18,10 +18,13 @@ This is a Python script of the classic Hangman game named "FILMANZA". The word t
 ## Installation Process:
 
 Wanna play this game? Write the following code and enjoy the game:
-  1.	!git clone https://github.com/Overnight-Sensations/SoloG.git
-  2.	Run()
-  
-  By running these few lines of code, the game is perfectly ready to play.
+1.	!git clone https://github.com/Overnight-Sensations/SoloG.git
+2.	%cd SoloG
+3.	!python setup.py install
+4.	From solog.filmanza import run
+5.	Run()
+
+By running these few lines of code, the game is perfectly ready to play.
 
 
 ## Rules for this game are as follows:
